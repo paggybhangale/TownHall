@@ -27,3 +27,10 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+String myMainClass='com.dashboard.dashboard.MetaDashboardServiceApiApplication'
+jar {
+  manifest {
+    attributes 'Main-Class':myMainClass
+  }
+}

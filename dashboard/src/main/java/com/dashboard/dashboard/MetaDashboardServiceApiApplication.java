@@ -8,6 +8,7 @@ public class MetaDashboardServiceApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MetaDashboardServiceApiApplication.class, args);
+		System.out.print("first run");
 	}
 
 }
